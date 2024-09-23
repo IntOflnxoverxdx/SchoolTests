@@ -142,7 +142,7 @@ document.querySelector(".send").addEventListener("click",(e)=>{
     <div class="results">
         <h2>Результаты ${parseInt(day,2)}.${parseInt(month,2)}.${2023+parseInt(year,2)} Тест 1</h2>
         <h3>${students[parseInt(grade,2)][parseInt(id,2)]}</h3>
-        <h4>${right_answers/total_questions*100}/${total_questions}</h4>
+        <h4>${right_answers/total_questions*100}/${total_questions*10}</h4>
     </div>
     `
 })
